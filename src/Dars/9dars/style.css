@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 20px;
+}
+.form input{
+    width: 340px;
+    height: 50px;
+    border: 2px solid #4d4b17;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 19px;
+}
+.form button, .edit button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: #104d10;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    grid-gap: 40px 20px;
+    justify-items: center;
+    /* grid-template-rows: 300px 200px; */
+}
+.card{
+    width: 280px;
+    height: 400px;
+    background: #5db0d7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    grid-gap: 10px;
+    border-radius: 10px;
+    padding: 0 0 15px 0;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card a{
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+}
+.link_img{
+    height: 30px !important;
+    width: auto;
+}
+.edit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    grid-gap: 15px;
+}
+.edit input, .edit textarea{
+    width: 350px;
+    height: 40px;
+    border: 2px solid #104d10;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 10px;
+}
+.edit textarea{
+    height: 140px;
+}
+.back_btn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: green;
+}
