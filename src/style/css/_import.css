@@ -1,0 +1,8 @@
+@import url(./about.css);
+@import url(./home.css);
+@import url(./style.css);
+
+*{
+    padding: 0;
+    margin: 0;
+}
